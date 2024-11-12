@@ -1,0 +1,11 @@
+1. VScode 가상환경 선택하기
+  - Cmd + Shift + P
+  - Python: Select Interpreter 선택
+  - local (usr/bin) / venv (가상환경) / global (opt/homebrew) 선택
+
+2. 프로젝트 가상환경 만들기
+  - cd (프로젝트 폴더 경로)
+  - python3 -m venv myenv
+  - source myenv/bin/activate
+  - pip install python-dotenv
+  - deactivate
